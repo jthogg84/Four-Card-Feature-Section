@@ -69,7 +69,7 @@ img{
   
 body{
     background-color: var(--very-light-grey);
-    margin: 1.5rem;
+    margin: 3rem 1.5rem;
     font-size: 15px;
     color: var(--very-dark-blue);
     font-family: 'Poppins', sans-serif;
@@ -89,7 +89,7 @@ body > p{
 }
 
 .card{
-    min-width: 300px;
+    min-width: 400px;
     
     height: 270px;
     padding: 1rem;
@@ -106,7 +106,7 @@ body > p{
 }
 
 .container{
-   width: 300px;
+   width: 400px;
    display:flex;
     justify-content: center;
    align-items: center;
@@ -117,7 +117,7 @@ body > p{
 .sub-container{
     display: flex;
     flex-direction: column;
-    min-width: 300px
+    min-width: 400px
 }
 
 header{

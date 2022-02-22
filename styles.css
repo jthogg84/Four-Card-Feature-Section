@@ -74,7 +74,7 @@ img {
 
 body {
   background-color: var(--very-light-grey);
-  margin: 1.5rem;
+  margin: 3rem 1.5rem;
   font-size: 15px;
   color: var(--very-dark-blue);
   font-family: 'Poppins', sans-serif;
@@ -94,7 +94,7 @@ body > p {
 }
 
 .card {
-  min-width: 300px;
+  min-width: 400px;
   height: 270px;
   padding: 1rem;
   background-color: white;
@@ -112,7 +112,7 @@ body > p {
 }
 
 .container {
-  width: 300px;
+  width: 400px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -134,7 +134,7 @@ body > p {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  min-width: 300px;
+  min-width: 400px;
 }
 
 header {
