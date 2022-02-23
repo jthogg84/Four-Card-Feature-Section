@@ -95,7 +95,6 @@ body > p {
 
 .card {
   min-width: 400px;
-  max-height:400px; 
   padding: 1rem;
   background-color: white;
   border-radius: 8px;
@@ -191,7 +190,6 @@ footer {
   }
   .card {
     width: 80%;
-    height: 15rem;
     padding: 1rem;
     background-color: white;
     border-radius: 8px;
