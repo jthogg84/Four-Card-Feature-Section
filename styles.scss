@@ -108,14 +108,15 @@ body > p{
    display:flex;
     justify-content: center;
    align-items: center;
-   gap:1rem;
+   gap:2rem;
    margin: auto;
 }
 
 .sub-container{
     display: flex;
     flex-direction: column;
-    min-width: 400px
+    min-width: 400px;
+    gap:1rem;
 }
 
 header{
