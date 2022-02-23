@@ -95,7 +95,7 @@ body > p {
 
 .card {
   min-width: 400px;
-  height: 270px;
+  max-height:400px; 
   padding: 1rem;
   background-color: white;
   border-radius: 8px;
