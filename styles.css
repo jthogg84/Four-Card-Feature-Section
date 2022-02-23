@@ -148,6 +148,27 @@ footer {
   margin: 0;
 }
 
+@media screen and (max-width: 1260px) {
+  .container {
+    display: -ms-grid;
+    display: grid;
+        grid-template-areas: "one two" " three two";
+    gap: 1rem;
+  }
+  .sub-container {
+    -ms-grid-row: 1;
+    -ms-grid-row-span: 2;
+    -ms-grid-column: 2;
+    grid-area: two;
+  }
+  .card {
+    margin: 0;
+  }
+  .container {
+    margin-top: 3rem;
+  }
+}
+
 @media screen and (max-width: 948px) {
   body {
     background-color: var(--very-light-grey);
@@ -159,6 +180,9 @@ footer {
     margin: 0;
   }
   .container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
     width: 100%;
     margin: 0;
     padding: 0;
